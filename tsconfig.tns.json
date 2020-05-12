@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig-base",
+    "compilerOptions": {
+        "paths": {
+            "@myscope/myproject": ["projects/myproject"],
+            "~/*": ["src/*"],
+            "*": ["./node_modules/tns-core-modules/*", "./node_modules/*"]
+        }
+    }
+}

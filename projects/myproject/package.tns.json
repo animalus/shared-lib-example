@@ -1,0 +1,24 @@
+{
+    "name": "@myscope/nativescript-myproject",
+    "version": "0.0.1",
+    "nativescript": {
+        "platforms": {
+            "android": "${version_nativescript_platform_android}",
+            "ios": "${version_nativescript_platform_ios}"
+        }
+    },
+    "peerDependencies": {
+        "@angular/common": "${version_angular}",
+        "@angular/compiler": "${version_angular}",
+        "@angular/core": "${version_angular}",
+        "@angular/forms": "${version_angular}",
+        "@angular/platform-browser": "${version_angular}",
+        "@angular/platform-browser-dynamic": "${version_angular}",
+        "@angular/router": "${version_angular}",
+        "nativescript-angular": "${version_nativescript_angular}",
+        "nativescript-localstorage": "2.0.0",
+        "nativescript-ui-sidedrawer": "${version_nativescript_ui_sidedrawer}",
+        "rxjs": "${version_rxjs}",
+        "zone.js": "${version_zonejs}"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "@myscope/myproject",
+    "version": "0.0.1",
+    "peerDependencies": {
+        "@angular/animations": "${version_angular}",
+        "@angular/cdk": "${version_angular_material}",
+        "@angular/common": "${version_angular}",
+        "@angular/core": "${version_angular}",
+        "@angular/flex-layout": "${version_flex_layout}",
+        "@angular/forms": "${version_angular}",
+        "@angular/material": "${version_angular_material}",
+        "@angular/material-moment-adapter": "${version_angular_material}",
+        "@angular/router": "${version_angular}",
+        "rxjs": "${version_rxjs}",
+        "zone.js": "${version_zonejs}"
+    }
+}

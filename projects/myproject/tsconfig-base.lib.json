@@ -1,0 +1,20 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "inlineSources": true,
+        "importHelpers": true,
+        "lib": ["dom", "es2018"],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es2015",
+        "lib": ["es2017", "dom"],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "files": ["index.ts"],
+    "exclude": ["node_modules", "src/test.ts", "**/*.spec.ts"]
+}
