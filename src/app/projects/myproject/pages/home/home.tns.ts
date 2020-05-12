@@ -4,7 +4,7 @@ import { DialogService } from "@myscope/myproject";
 @Component({
     templateUrl: "./home.html"
 })
-export class HomeComponent {
+export class HomePageComponent {
     constructor(private dialogService: DialogService) {}
 
     meClicked() {
