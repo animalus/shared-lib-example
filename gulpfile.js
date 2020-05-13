@@ -1,8 +1,10 @@
+const gulp = require("gulp");
 const auGulpDevTools = require("@animalus/gulp-dev-tools");
 
-auGulpDevTools.addGulpTasks([{ packageName: "gulp-dev-tools" }]);
+auGulpDevTools.addGulpTasks(gulp, [{ packageName: "gulp-dev-tools" }]);
 
 auGulpDevTools.addGulpLibTasks(
+    gulp,
     [
         {
             name: "myproject",
