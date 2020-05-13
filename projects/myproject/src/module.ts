@@ -8,7 +8,7 @@ import { MainPageComponent } from "./mainpage";
 import { platform } from "./module.platform";
 
 @NgModule({
-    imports: [, ...platform.imports, RouterModule],
+    imports: [...platform.imports, RouterModule],
     providers: [DialogService],
     declarations: [ConfirmDialog, MainPageComponent],
     entryComponents: [ConfirmDialog],
@@ -20,4 +20,4 @@ export class MyProjectModule {}
 export { DialogService };
 export * from "./module.platform";
 
-// export { MainPageComponent };
+export { MainPageComponent };
