@@ -2,7 +2,8 @@
     "extends": "./tsconfig-base.lib.json",
     "compilerOptions": {
         "paths": {
-            "~/*": ["src/*"]
+            "~/*": ["src/*"],
+            "tns-core-modules/*": ["../../node_modules/@nativescript/core/*"]
         }
     }
 }
