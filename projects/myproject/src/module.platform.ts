@@ -5,7 +5,7 @@ export const platform = {
     imports: [MatDialogModule, RouterModule],
     schemas: [],
     declarations: [],
-    exports: [],
+    exports: [MatDialogModule, RouterModule],
     entryComponents: [],
     providers: []
 };

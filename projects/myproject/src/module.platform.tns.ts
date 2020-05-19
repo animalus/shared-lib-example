@@ -7,7 +7,7 @@ export const platform = {
     imports: [NativeScriptRouterModule, NativeScriptUISideDrawerModule],
     providers: [],
     declarations: [],
-    exports: [],
+    exports: [NativeScriptRouterModule, NativeScriptUISideDrawerModule],
     entryComponents: [],
     schemas: [NO_ERRORS_SCHEMA]
 };

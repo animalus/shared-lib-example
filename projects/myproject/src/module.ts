@@ -12,7 +12,7 @@ import { platform } from "./module.platform";
     providers: [DialogService],
     declarations: [ConfirmDialog, MainPageComponent],
     entryComponents: [ConfirmDialog],
-    exports: [MainPageComponent],
+    exports: [...platform.exports, MainPageComponent],
     schemas: [...platform.schemas]
 })
 export class MyProjectModule {}
