@@ -1,7 +1,8 @@
+import { RouterModule } from "@angular/router";
 import { MatDialogModule } from "@angular/material/dialog";
 
 export const platform = {
-    imports: [MatDialogModule],
+    imports: [MatDialogModule, RouterModule],
     schemas: [],
     declarations: [],
     exports: [],
