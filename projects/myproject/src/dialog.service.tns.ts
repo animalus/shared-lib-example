@@ -1,9 +1,6 @@
 import { Injectable } from "@angular/core";
 
-import {
-    ModalDialogService,
-    ModalDialogOptions
-} from "nativescript-angular/modal-dialog";
+import { ModalDialogService, ModalDialogOptions } from "@nativescript/angular";
 
 import { AUDialogContext, AUDialogOptions } from "./types";
 import { AbstractDialogService } from "./dialog.service.abstract";

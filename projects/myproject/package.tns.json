@@ -15,7 +15,7 @@
         "@angular/platform-browser": "${version_angular}",
         "@angular/platform-browser-dynamic": "${version_angular}",
         "@angular/router": "${version_angular}",
-        "nativescript-angular": "${version_nativescript_angular}",
+        "@nativescript/angular": "${version_nativescript_angular}",
         "nativescript-localstorage": "2.0.0",
         "nativescript-ui-sidedrawer": "${version_nativescript_ui_sidedrawer}",
         "rxjs": "${version_rxjs}",

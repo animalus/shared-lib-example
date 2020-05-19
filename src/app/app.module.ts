@@ -10,7 +10,6 @@ import { MyProjectModule } from "~/../projects/myproject/index";
 import { platform } from "./app.module.platform";
 
 @NgModule({
-    providers: [...platform.providers],
     imports: [
         ...platform.imports,
         AppRoutingModule,

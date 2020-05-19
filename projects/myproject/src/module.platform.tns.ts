@@ -1,9 +1,10 @@
 import { NO_ERRORS_SCHEMA } from "@angular/core";
 
-import { NativeScriptRouterModule } from "nativescript-angular/router";
+import { NativeScriptRouterModule } from "@nativescript/angular";
+import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular";
 
 export const platform = {
-    imports: [NativeScriptRouterModule],
+    imports: [NativeScriptRouterModule, NativeScriptUISideDrawerModule],
     providers: [],
     declarations: [],
     exports: [],
