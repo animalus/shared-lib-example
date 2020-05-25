@@ -9,6 +9,9 @@ import { MyProjectModule } from "~/../projects/myproject/index";
 
 import { platform } from "./app.module.platform";
 
+import { HtmlView } from "@nativescript/core";
+console.log(HtmlView);
+
 @NgModule({
     imports: [
         ...platform.imports,

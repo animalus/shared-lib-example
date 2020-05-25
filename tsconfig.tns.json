@@ -3,8 +3,7 @@
     "compilerOptions": {
         "paths": {
             "@myscope/myproject": ["projects/myproject"],
-            "~/*": ["src/*"],
-            "tns-core-modules/*": ["../../node_modules/@nativescript/core/*"]
+            "~/*": ["src/*"]
         }
     },
     "files": ["./src/main.ts"]
