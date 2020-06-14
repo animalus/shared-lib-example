@@ -1,5 +1,11 @@
 # shared-lib-example
 
+## Prerequisites
+
+Needs globally installed gulp.
+
+    npm i -g gulp
+
 ## Install
 
     npm i
