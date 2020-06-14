@@ -6,6 +6,8 @@ Needs globally installed gulp.
 
     npm i -g gulp
 
+This also assumes you have `tns` installed globally. You can add it to the `package.json` and the gulp build process will pick the local version up if it is there.
+
 ## Install
 
     npm i
