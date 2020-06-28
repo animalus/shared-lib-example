@@ -11,7 +11,12 @@
     },
     "scripts": {
         "postinstall": "npm run ngcc",
-        "ngcc": "ngcc --properties es2015 module main --first-only"
+        "ngcc": "ngcc --properties es2015 module main --first-only",
+        "pugc": "gulp pug:dev",
+        "web": "gulp dev --debug",
+        "android": "gulp dev:android --debug",
+        "ios": "gulp dev:ios --debug",
+        "build": "gulp buildall --debug"
     },
     "dependencies": {
         "@angular/animations": "^9.1.4",
